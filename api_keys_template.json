@@ -1,0 +1,15 @@
+{
+  "mexc": {
+    "api_key": "YOUR_MEXC_API_KEY_HERE",
+    "api_secret": "YOUR_MEXC_API_SECRET_HERE",
+    "testnet": true
+  },
+  "security": {
+    "note": "НИКОГДА НЕ ПУБЛИКУЙТЕ ЭТИ КЛЮЧИ В ОТКРЫТОМ ДОСТУПЕ!",
+    "instructions": [
+      "1. Скопируйте этот файл как api_keys.json",
+      "2. Вставьте ваши реальные API ключи от MEXC",
+      "3. Добавьте api_keys.json в .gitignore для безопасности"
+    ]
+  }
+}
