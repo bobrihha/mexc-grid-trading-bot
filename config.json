@@ -5,7 +5,7 @@
   },
   "grid": {
     "mode": "percent",
-    "step_percent": 0.0075,
+    "step_percent": 0.007,
     "tp_mode": "step",
     "tp_percent": 0.012,
     "levels_below": 10,
@@ -25,12 +25,12 @@
     "quote_start": 10000.0,
     "base_start_quote": 200.0,
     "compound": true,
-    "max_inventory_ratio": 0.80,
-    "target_inventory_ratio": 0.50
+    "max_inventory_ratio": 0.8,
+    "target_inventory_ratio": 0.5
   },
   "risk": {
     "dd_pause_frac": 0.25,
-    "kill_switch_frac": 0.40,
+    "kill_switch_frac": 0.4,
     "profit_reanchor_frac": 0.04,
     "cancel_deep_buys_on_rally": true
   }

@@ -1,0 +1,40 @@
+# API ключи и секретные данные
+api_keys.json
+*.env
+.env*
+
+# Логи
+*.log
+logs/
+bot.log
+bot_secure.log
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Результаты бэктестинга
+backtest_results/
+results/
+
+# IDE файлы
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Временные файлы
+*.tmp
+*.temp
+temp/
+
+# Персональные настройки
+config_personal.json
+my_config.json
