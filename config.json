@@ -1,0 +1,37 @@
+{
+  "runtime": {
+    "symbol": "BTCUSDT",
+    "poll_seconds": 15
+  },
+  "grid": {
+    "mode": "percent",
+    "step_percent": 0.0075,
+    "tp_mode": "step",
+    "tp_percent": 0.012,
+    "levels_below": 10,
+    "levels_above": 0,
+    "atr_window": 120,
+    "atr_k": 8.0,
+    "recenter_threshold_frac": 0.35,
+    "maker_buffer_frac": 0.0005,
+    "tick_size": 0.01,
+    "qty_step": 0.0001,
+    "min_notional": 10.0,
+    "sizing_mode": "geometric",
+    "skew_strength": 0.5,
+    "volatility_adapt": true
+  },
+  "capital": {
+    "quote_start": 10000.0,
+    "base_start_quote": 200.0,
+    "compound": true,
+    "max_inventory_ratio": 0.80,
+    "target_inventory_ratio": 0.50
+  },
+  "risk": {
+    "dd_pause_frac": 0.25,
+    "kill_switch_frac": 0.40,
+    "profit_reanchor_frac": 0.04,
+    "cancel_deep_buys_on_rally": true
+  }
+}
